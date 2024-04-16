@@ -39,7 +39,7 @@ void loop()
 
   if (distance_cm < 10)
   {
-    flag = flag;
+    flag = !flag;
     digitalWrite(R_led, HIGH);
     digitalWrite(Y_led, LOW);
     digitalWrite(G_led, LOW);
